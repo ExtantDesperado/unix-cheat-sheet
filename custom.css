@@ -1,0 +1,81 @@
+p[class="monospace"] {
+    font-family: "Lucida Console";
+}
+
+span[class="greentext"] {
+	color: green;
+}
+
+span[class="bluetext"] {
+	color: blue;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+body {
+    background-image: url("background-blue.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+table, td, th {
+    border-style: hidden;
+    border-spacing: 5px 10px;
+    border-radius: 10px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    font-size: 16px;
+}
+
+@keyframes spinner {
+    0%     {transform: rotate(0deg);}
+    100%   {transform: rotate(360deg);}
+}
+
+.hlink:hover {
+    animation: spinner .3s infinite linear;
+}
+
+.code {
+    text-align: left;
+    padding-left: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #77bbff;
+}
+
+tr:nth-child(odd) {
+    background-color: #66aaff;
+}
+
+tr:first-of-type {
+    font-size: large;
+    font-family: Georgia, serif;
+    font-weight: bolder;
+}
+
+a {
+    color: #0077ff;
+}
+
+a:visited {
+    color: #ff00ff;
+}
+
+.aligned {
+    vertical-align: middle;
+}
+
+.aligned:hover {
+    animation: spinner .7s infinite linear;
+}

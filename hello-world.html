@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="custom.css"/>
+		<title>Unix Cheat Sheet</title>
+	</head>
+
+	<body>
+		<h1>Unix Cheat Sheet</h1>
+		<h2>Basic Unix commands and their uses</h2>
+		<table>
+			<tr>
+				<th>Unix Shell Command Name</th>
+				<th>Description</th>
+				<th>Example</th>
+			</tr>
+			<tr>
+				<td class="hlink"><a href="https://en.wikipedia.org/wiki/Ls">ls</a></td>
+				<td>List the files in the current directory</td>
+				<td class="code"><p class="monospace">
+					<span class="greentext">extantdesperado:</span><span class="bluetext">~</span>/workspace $ ls<br/>
+					README.md  hello-world.html</p>
+				</td>
+			</tr>
+			<tr>
+				<td class="hlink"><a href="https://en.wikipedia.org/wiki/Cd_(command)">cd</a></td>
+				<td>Change the current directory to otherdir</td>
+				<td class="code"><p class="monospace">
+					<span class="greentext">extantdesperado:</span><span class="bluetext">~</span> $ cd workspace/<br/>
+					<span class="greentext">extantdesperado:</span><span class="bluetext">~/workspace</span> $</p>
+				</td>
+			</tr>
+			<tr>
+				<td class="hlink"><a href="https://en.wikipedia.org/wiki/Pwd">pwd</a></td>
+				<td>Print the current directory</td>
+				<td class="code"><p class="monospace">
+					<span class="greentext">extantdesperado:</span><span class="bluetext">~/workspace</span> $ pwd<br/>
+					/home/ubuntu/workspace
+				</td>
+			</tr>
+			<tr>
+				<td class="hlink"><a href="https://en.wikipedia.org/wiki/Mkdir">mkdir</a></td>
+				<td>Make a new directory with the given name</td>
+				<td class="code"><p class="monospace">
+					<span class="greentext">extantdesperado:</span><span class="bluetext">~</span> $ mkdir stuff<br/>
+					<span class="greentext">extantdesperado:</span><span class="bluetext">~</span> $ ls<br/>
+					<span class="bluetext">lib</span>/ <span class="bluetext">stuff</span>/ <span class="bluetext">workspace</span>/
+				</td>
+			</tr>
+			<tr>
+				<td class="hlink"><a href="https://en.wikipedia.org/wiki/Rmdir">rmdir</a></td>
+				<td>Remove the directory with the given name</td>
+				<td class="code"><p class="monospace">
+					<span class="greentext">extantdesperado:</span><span class="bluetext">~</span> $ rmdir stuff<br/>
+					<span class="greentext">extantdesperado:</span><span class="bluetext">~</span> $ ls<br/>
+					<span class="bluetext">lib</span>/ <span class="bluetext">workspace</span>/
+				</td>
+			</tr>
+		</table>
+		<p style="color: white;">I didn't really have a practical use for vertical-align, so here <img class="aligned" src="Pokeball.PNG" alt="spinny pokeball"> is a random middle-aligned pokeball.</p>
+	</body>
+</html>
